@@ -1,0 +1,161 @@
+.navi-content {
+  padding-left: 20%;
+}
+
+.imagecontainer {
+  margin: 0 auto 0 auto;
+  height: 100%;
+}
+
+#CardDetails {
+  color: white;
+  font-weight:700;
+  font-size: 2.5rem;
+  font-family: 'Fredoka', sans-serif;
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 37%;
+}
+
+.priceText {
+  display: inline;
+  font-size: 1.7rem;
+  font-family: 'Arvo', serif;
+}
+
+
+.CarouselInfoModule {
+  margin: 0 0 0 auto;
+  padding-right: 0px;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+.cardparagraph {
+  margin: 10% 0 auto 15%;
+}
+
+.trycardbutton {
+  margin: 20% 0 auto 15%;
+  padding: 4% 8% 4% 8%;
+  background-color: black;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: 'Mali', cursive;
+}
+
+#cardTitle {
+  font-family: 'Arvo', serif;
+  font-size: 3.3rem;
+  padding-left: 28%;
+  margin: 0 auto 0 auto;
+}
+
+.totalcarouselmodule {
+  margin: 5% 12% 5% 12%;
+}
+
+.featuresheading {
+  text-align: center;
+  margin: 3%;
+}
+
+#CarouselSection {
+  margin: 10% 12% 0 12%;
+  background-color: white;
+  border-style: solid;
+  border-radius: 80px;
+  border-width: 0.5px;
+}
+
+.coustemcarousel {
+  z-index: 1;
+  height: 50%;
+  width: 60%;
+  padding-top: 10%;
+}
+
+.corouselimg {
+  object-fit: cover;
+  height: 500px;
+  width: 500px;
+  border-width: 7px;
+  border-color: #464E2E;
+  border-style: outset;
+  border-radius: 10px;
+}
+
+.featuresimg {
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ height:120px;
+ width:120px;
+
+}
+
+
+
+.imageinfo {
+  font-size: 2rem;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.featuresSection {
+  padding-top: 3%;
+  padding-bottom: 5%;
+  margin: 0 7% 5% 7%;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 0.5px;
+}
+
+
+.BGimage {
+  z-index: -1;
+  position: absolute;
+  object-fit: cover;
+  margin: 0 5%;
+  width: 90%;
+  height: 55%;
+  border-style: inset;
+  border-radius: 80px;
+}
+
+@media (max-width: 600px) {
+  #CardDetails {
+    color: white;
+    font-weight:500;
+    font-size: 2.2rem;
+    font-family: 'Fredoka', sans-serif;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 22%;
+  }
+
+  #CarouselSection {
+    margin: 25% 12% 0 12%;
+    background-color: white;
+    border-style: solid;
+    border-radius: 80px;
+    border-width: 0.5px;
+  }
+
+  .featuresimg {
+    margin-left: 2%;
+    display: inline-block;
+   height:80px;
+   width:80px;
+  }
+
+  .imageblock{
+    display: inline;
+  }
+
+
+  .imageinfo{
+    display:contents;
+    font-size: 1.2rem;
+
+  }
